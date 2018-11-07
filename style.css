@@ -1,0 +1,199 @@
+.jomla{
+    font-size: 50px;
+    padding-top: 1em;
+    text-align: left;
+    color: darkgoldenrod;
+}
+
+#p1{
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+    font-family: Cambria;
+    line-height:30px;
+
+}
+
+#p2{
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+    font-family: Cambria;
+    line-height:40px;
+}
+
+#p3,.para,#demo{
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+    font-family: Cambria;
+    line-height: 30px;
+
+}
+
+.leader,.listpic,#demo{
+    width:1200px;
+    margin:0 auto;
+    padding-left: 2em;
+}
+
+.listpic{
+    padding-top:8em;
+}
+
+.pic{
+
+    width: 220px;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.pic:hover{
+    width: 220px;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 10%;
+}
+
+.middle, .middl {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.flottant
+{
+    float: left;
+    width: 240px;
+    height: 350px;
+}
+
+
+.div1{
+    display: table-cell;
+
+    position: relative;
+
+}
+
+.div1:hover .pic {
+    opacity: 0.7;
+    border-radius: 10%;
+}
+
+.div1:hover .middle {
+    opacity: 1;
+}
+
+.div2{
+    display: table-cell;
+    position: relative;
+
+
+}
+
+.div2:hover .txt {
+    opacity: 1;
+}
+
+
+.txt {
+    position: relative;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+.txt:hover{
+    color: black;
+    text-decoration:none;
+    font-family: "Comic Sans MS";
+}
+
+.pict{
+    opacity: 0.8;
+}
+
+.div2:hover .pict {
+    opacity: 0.7;
+}
+
+.div2:hover .middl {
+    opacity: 1;
+}
+
+.text {
+
+    color: white;
+    font-size: 40px;
+    font-family: Cambria;
+    padding: 16px 32px;
+}
+
+table {
+    margin-top: 2em;
+    float:right;
+    width: 260px;
+    border: none;
+}
+
+.cell , #cl , td{
+    border: none;
+    background: transparent;
+}
+
+.titre{
+    color: white;
+    font-size: 30px;
+    font-family: Cambria;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#logop{
+
+    padding-left: 30%;
+}
+
+#mcd{
+    font-size: 25px;
+    font-family: Cambria;
+    color: white;
+}
+
+
+.ital{
+    border-bottom: 1px solid darkgoldenrod;
+    border-left: 5px solid darkgoldenrod;
+    border-top: 1px solid darkgoldenrod;
+    width: 900px;
+    padding: 8px 10px 8px 10px;
+    color: antiquewhite;
+
+}
+
+.titre:hover:before{
+    content: ">>";
+    color: white;
+    text-decoration:none;
+}
+
+.titre:hover{
+    color: white;
+    text-decoration:none;
+}
+
+/************************************************************************************************************************/
